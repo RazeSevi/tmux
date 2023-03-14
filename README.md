@@ -172,7 +172,7 @@ set -g @continuum-restore 'on' # enable tmux-continuum functionality
 run '~/.tmux/plugins/tpm/tpm'
 ```
 
-For more themes you can check [Tmux Themepack](https://github.com/jimeh/tmux-themepack#readme)
+For more themes you can check [Tmux Themepack](https://github.com/jimeh/tmux-themepack#themes)
 
 ### Keybinds
 

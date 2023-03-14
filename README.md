@@ -1,5 +1,15 @@
 ## My tmux config
 
+### Content
+- [Setup](https://github.com/RazeSevi/tmux/#setup)
+- [Setup - Install Homebrew](https://github.com/RazeSevi/tmux/#install-homebrew)
+- [Setup - Install tmux](https://github.com/RazeSevi/tmux/#install-tmux)
+- [Setup - Configure True Colors](https://github.com/RazeSevi/tmux/#configure-true-colors)
+- [Setup - Change default prefix](https://github.com/RazeSevi/tmux/#change-default-tmux-prefix-to-ctrl-a)
+- [Setup - Enable mouse in tmux](https://github.com/RazeSevi/tmux/#enable-mouse-in-tmux)
+- [Keybinds](https://github.com/RazeSevi/tmux/#keybinds)
+- [Keybinds - ]
+
 This `README.md` and `plugins` directory are located in the `~/.tmux` directory.
 
 ### Setup

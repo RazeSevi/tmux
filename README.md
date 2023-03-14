@@ -183,7 +183,15 @@ Add the plugin in your `~/.tmux.conf` file then do `prefix + I`.
 `tmux kill-server`                  - kill clients, sessions and server<br>
 `tmux ls`                           - List up all tmux sessions<br>
 
-#### Navigate in your sessions, panes
+#### Navigate in your Window, panes
+
+```
+In a session you have windows and panes.
+A window is basically a collection of split panes.
+
+If you create a new session you see a window with a single pane.
+You can add a second pane in that window with `prefix + |` or `prefix + -`
+```
 
 **Create split windows**
 
@@ -191,15 +199,21 @@ Add the plugin in your `~/.tmux.conf` file then do `prefix + I`.
 `prefix + |`    - Create a vertical split<br>
 
 **Navigate through your splitted windows.**
+You can only navigate like this if you have the `christoomey/vim-tmux-navigator` plugin installed.
 
 `Ctrl + h`    - Navigate to the left<br>
 `Ctrl + j`    - Navigate up<br>
 `Ctrl + k`    - Navigate down<br>
 `Ctrl + l`    - Navigate to the right<br>
 
+**Navigate between windows**
+
+`prefix + n`    - Go to the next window<br>
+`prefix + p`    - Go to the previous window<br>
+
 **Exit window by.**
 
-`exit` or `Ctrl + D`
+`exit` or `Ctrl + d`
 
 #### Resize your window
 
@@ -211,12 +225,21 @@ Add the plugin in your `~/.tmux.conf` file then do `prefix + I`.
 
 #### Check sessions and panes
 
-Check sessions
-
-`prefix + s`    - Shows active sessions and panes
-
+`prefix + s`    - Shows active sessions<br>
+`prefix + w`    - Show all windows<br>
 
 #### Rename sessions and windows
 
 `prefix + :rename` or `prefix + :rename-session` <new session name> - Renames the session<br>
 `prefix + :renamew` or `prefix + :rename-window` <new window name>  - Renames the current window<br>
+
+#### Copy mode
+
+`prefix + [`    - Enable copy mode<br>
+`v`             - Enable selection<br>
+`y`             - Copy into your clipboard<br>
+
+You can use `$` to go to the end of a line.<br>
+And you can use `^` to go to the beginning of a line.<br>
+
+

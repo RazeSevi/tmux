@@ -199,7 +199,7 @@ In a session you have windows and panes.
 A window is basically a collection of split panes.
 
 If you create a new session you see a window with a single pane.
-You can add a second pane in that window with `prefix + |` or `prefix + -`
+You can add a second pane in that window with "prefix + |" OR "prefix + -"
 ```
 
 **Create split windows**

@@ -7,7 +7,7 @@
 - [Setup - Configure True Colors](https://github.com/RazeSevi/tmux/#configure-true-colors)
 - [Setup - Change default prefix](https://github.com/RazeSevi/tmux/#change-default-tmux-prefix-to-ctrl-a)
 - [Setup - Enable mouse in tmux](https://github.com/RazeSevi/tmux/#enable-mouse-in-tmux)
-- [Keybinds](https://github.com/RazeSevi/tmux/#keybinds)
+- [Keybinds](#keybinds)
 
 This `README.md` and `plugins` directory are located in the `~/.tmux` directory.
 

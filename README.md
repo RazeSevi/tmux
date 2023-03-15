@@ -238,6 +238,10 @@ You can only navigate like this if you have the `christoomey/vim-tmux-navigator`
 `prefix + s`    - Shows active sessions<br>
 `prefix + w`    - Show all windows<br>
 
+#### Check time
+
+`prefix + t`    - Shows current time
+
 #### Rename sessions and windows
 
 `prefix + :rename` or `prefix + :rename-session` <new session name> - Renames the session<br>

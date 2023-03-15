@@ -233,10 +233,12 @@ You can only navigate like this if you have the `christoomey/vim-tmux-navigator`
 `prefix + l`    - Resize your window to the right<br>
 `prefix + m`    - Toggle window between full screen<br>
 
-#### Check sessions and panes
+#### Check Windows and panes
 
 `prefix + s`    - Shows active sessions<br>
 `prefix + w`    - Show all windows<br>
+`prefix + c`    - Create new pane<br>
+`prefix + x`    - Kill pane
 
 #### Check time
 

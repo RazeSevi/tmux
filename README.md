@@ -62,11 +62,6 @@ touch ~/.tmux.conf
 
 ##### Add Configuration Options to File
 
-Open with preferred editor and add the following ("open -t yabairc", "code yabairc" (visual studio code), "vim yabairc", etc...).<br>
-There are some configuration options that will be available only if you partially disable SIP (Sytem Integrity Protection).<br>
-All of the options I've configured below will work without disabling SIP.<br>
-<br>
-
 ```bash
 vim ~/.tmux.conf
 nano ~/.tmux.conf
@@ -143,7 +138,7 @@ unbind -T copy-mode-vi MouseDragEnd1Pane # don't exit copy mode after dragging w
 #### Install tpm (tmux plugin manager)
 
 Run the following command.<br>
-This wil cinstall tpm and will add it in `~/.tmux/plugins/tpm`.
+This will install tpm and will add it in `~/.tmux/plugins/tpm`.
 
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
